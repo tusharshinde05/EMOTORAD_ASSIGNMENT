@@ -15,16 +15,16 @@ Follow these steps to set up the project locally:
    git clone https://github.com/<your-username>/EMOTORAD.git
    cd EMOTORAD
 2. **Create a Virtual Environment:**
-   # If you haven't installed virtualenv, you can do so via pip:
+   ### If you haven't installed virtualenv, you can do so via pip:
    pip install virtualenv
-   # Then create and activate a virtual environment:
+   ### Then create and activate a virtual environment:
    virtualenv venv
-   # On Windows
+   ### On Windows
    venv\Scripts\activate
-   # On macOS/Linux
+   ### On macOS/Linux
    source venv/bin/activate
 3. **Install dependencies::**
-   # Install the required Python packages using pip:
+   ### Install the required Python packages using pip:
    pip install fastapi uvicorn sqlalchemy psycopg2-binary pydantic
    fastapi: The web framework for building APIs.
    uvicorn: ASGI server for serving the FastAPI application.
